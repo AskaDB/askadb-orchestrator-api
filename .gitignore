@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.sqlite3
+*.env
+.env
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
