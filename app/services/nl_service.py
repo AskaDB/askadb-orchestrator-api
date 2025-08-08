@@ -1,7 +1,7 @@
 import httpx
 from app.models.query_input import QueryRequest
 
-NL_QUERY_URL = "http://nl-query:8001/translate"
+NL_QUERY_URL = "http://askadb-nl-query:8001/translate"
 
 async def translate_question_to_query(request: QueryRequest) -> str:
     payload = {

@@ -1,10 +1,9 @@
-# orchestrator-api
+# askadb-orchestrator-api
 
-Gateway entre a interface do usuário e os serviços de NLP (`nl-query`) e execução (`query-engine`).
-
+Gateway entre a interface do usuário e os serviços de NLP (`askadb-nl-query`) e execução (`askadb-query-engine`).
 
 ## Endpoints
-- POST `/query` → body `QueryRequest { question: string }` → chama `nl-query` e depois `query-engine`.
+- POST `/query` → body `QueryRequest { question: string }` → chama `askadb-nl-query` e depois `askadb-query-engine`.
 
 ## Rodando localmente
 ```bash
