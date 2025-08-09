@@ -4,7 +4,8 @@ from typing import List, Dict, Any
 
 class DashboardService:
     def __init__(self):
-        self.dashboard_url = "http://localhost:8003/suggest"
+        # Use service name for Docker network resolution
+        self.dashboard_url = "http://askadb-dashboard-core:8003/suggest"
     
     async def generate_suggestions(self, data: List[Dict[str, Any]], question: str) -> Dict[str, Any]:
         """Generate dashboard suggestions using the dashboard core service"""
